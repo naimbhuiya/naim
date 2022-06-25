@@ -1,0 +1,446 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+#btnSize{
+    width: 75px;
+    padding: 3px 8px;
+}
+
+.left a img{
+    max-width: 100%;
+    width: 300px;
+}
+.fixWidth{
+    width: 90%;
+    margin: 0 auto;
+}
+.bgColor{
+    background-color: rgb(33, 33, 32);
+}
+.floatFix::after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+.left a{
+    line-height: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: none;
+}
+.left a span{
+    color: rgb(10, 202, 240);
+}
+
+.lft{
+    float: left;
+    width: 30%;
+    display: block;
+}
+.right{
+    float: right;
+    width: 70%;
+    display: block;
+}
+
+.right ul li{
+    display: inline;
+    
+}
+.right ul{
+    text-align: right;
+    
+}
+.right ul li a{
+    text-decoration: none ;
+    color :rgb(255, 255, 255);
+    line-height: 65px;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.menuBar{
+    display: none;
+}
+.timesBtn{
+    color: #fff;
+    display: inline;
+}
+.menuTimes {
+    display: none;
+}
+/* This is my home mein section */
+
+.left1{
+    float: left;
+    display: block;
+    width: 50%;
+
+}
+
+
+.right1{
+    float: right;
+    display: block;
+    width: 50%;
+}
+.left1 span {
+    font-family: "helvetica";
+    color: orange;
+    cursor: pointer;
+}
+.left1 span div{
+    color: black;
+    width: 45px;
+    height: 2px;
+    background: #000;
+    transition: .5s;
+}
+
+
+.left1 h2{
+    font-size: 40px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    padding: 15px 0;
+}
+.left1 p{
+    font-family: Arial, Helvetica, sans-serif;
+   color: rgb(56, 63, 64) ;
+   line-height: 25px;
+}
+.left1 a{
+    color: #000;
+    padding: 6px 15px;
+    border: 2px solid rgb(255, 238, 0);
+    margin-top: 25px;
+    display: block;
+    width: 55px;
+    text-align: center;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    transition: .5s;
+}
+.left1 a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left1{
+    padding: 150px 0;
+}
+.right1 img{
+    max-width: 100%;
+    width: 550px;
+}
+.right1 h1{
+    text-align: right;
+    padding: 0;
+    margin-bottom: -8px;
+}
+.subHomeSection{
+    padding-bottom: 0%;
+    border-bottom: 1px solid black;
+}
+.home2ntSection .subHome2ntSection h1{
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.home2ntSection .subHome2ntSection p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_slide span{
+   display: block;
+}
+.lft1{
+    width: 50%;
+    float: left;
+    display: block;
+}
+.r8{
+    width: 50%;
+    float: right;
+    display: block;
+}
+.subHome2ntSection{
+    border-bottom:1px solid black ;
+}
+.image_slide .lft1 img , .r8 img{
+    width: 450px;
+    height: 260px;
+    display: block;
+    text-align: center;
+    margin: 0  auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+} 
+
+.image_slide .lft1 span , .r8 span{
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 15px;
+    padding: 4px 6px;
+    border: 2px solid;
+    width: 35px;
+    margin: 10px auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* .image_slide div{
+    height: 350px;
+    width: 5;
+    margin: 0 auto;
+    background: #000;
+} */
+
+.more_btn a{
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    width: 80px;
+    padding: 5px 8px;
+    border :1.5px solid orange;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color :black;
+    margin-bottom: -20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+.My_skill{
+    margin-top: 45px;
+}
+
+.sub_my_skill h1{
+ text-align: center;
+ font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+.sub_my_skill p{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub_my_skill table tr span{
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   font-size: 35px;
+   text-align: center;
+}
+.sub_my_skill table{
+    display: block;
+    margin: 25px auto;
+}
+.sub_my_skill table tbody{
+    width: 100%;
+    display: block;
+}
+.sub_my_skill table tr {
+    display: block;
+}
+.sub_my_skill table tr td{
+    padding: 5px 15px;
+    width: 450px;
+}
+.sub_my_skill div i{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+    transition: .5s;
+    margin-top: 30px;
+}
+
+.sub_my_skill div i:hover{
+    font-size: 55px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0;
+}
+.lft1 nav ul{
+    text-align: center;
+}
+.lft1 nav ul li{
+    list-style: none;
+}
+.lft1 nav ul li a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 22px;
+}
+.r8 p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+
+.lft1 .email  span, .number  span , .adress  span{
+    font-size: 25px ;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+} 
+.lft1 .email  p , .number p , .adress  p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.lft1 .email , .number , .adress {
+    margin: 15px 0;
+}
+.inpt{
+    width: 98%;
+    display: block;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn{
+   width:70px;
+   font-size: 19px;
+   padding: 5px;border: 1px solid black;
+   background: rgb(118, 118, 118);
+   color: aliceblue;
+}
+.footer{
+    margin-top: 20px;
+}
+
+.sub_contact_section{
+    padding: 15px;
+}
+.sub_contact_section h1{
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    text-align: center;
+}
+.sub_contact_section .p1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+.div1{
+    margin-top: 15px;
+    padding: 15px;
+}
+.worker{
+ margin: 100px auto;
+ 
+}
+
+/* .worker .subWorker{
+
+} */
+.worker .subWorker .workerLft {
+    border-right: 2px solid rgb(125, 121, 121);
+}
+.worker .subWorker .workerLft img{
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.worker .subWorker .workerR8 {
+    float: right;
+    width: 49%;
+    display: block;
+}
+.worker .subWorker .workerR8  .meinWorker{
+    margin: 50px 0;
+    display: block;
+}
+
+.worker .subWorker .workerR8  .meinWorker div{
+    margin: 22px 0;
+}
+
+.worker .subWorker .workerR8  .meinWorker div h3{
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    line-height: 65px;
+    font-size: 25px;
+}
+.worker .subWorker .workerR8  .meinWorker div p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 18px;
+}
+
+.worker h1{
+    font-family :'Kdam Thmor Pro', sans-serif ;
+    font-size: 35px;
+    text-align: center;
+ margin-bottom: 35px;
+}
+
+.form-1 form{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.div1 .info .div-01{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.meinMenu-expand {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    
+    
+}
+.meinMenu-expand-js-code {
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    
+    height: 0;
+}
+.width-11{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+

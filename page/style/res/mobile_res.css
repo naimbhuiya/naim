@@ -1,0 +1,231 @@
+@media (max-width: 768px){
+    .left1 {
+        padding: 27px 0;
+    }
+    .left1 {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .right1 {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .left1 span {
+        display: block;
+        text-align: center;
+    }
+
+    .left1 span div {
+        margin: 0 auto;
+    }
+    .left1 h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .left1 p {
+        text-align: center;
+    }
+    .left1 a {
+        
+        margin: 15px auto;
+    }
+    .image_slide .lft1 img, .r8 img {
+        width: 100%;
+    }
+    .lft1 {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .r8 {
+        width: 100%;
+        float: none;
+        
+    }
+    .home2ntSection .subHome2ntSection p {
+        width: 70%;
+       
+    }
+    .sub_my_skill p {
+        width: 70%;
+    }
+    .sub_my_skill table tr td {
+        padding: 30px 15px;
+        width: 100%;
+        display: block;
+    }
+    .worker .subWorker .workerLft {
+        border-right: none;
+    }
+    .worker .subWorker .workerR8 {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .worker .subWorker .workerR8 .meinWorker div h3 {
+        
+        text-align: center;
+    }.worker .subWorker .workerR8 .meinWorker div p {
+        
+        text-align: center;
+    }
+    .sub_contact_section .p1 {
+        width: 70%;
+    }
+
+
+    
+    .right .menuBar{
+        display: block;
+        opacity: 1;
+        width: 1;
+        height: 1;
+
+    }
+    .right  .menuBar li{
+        display: inline;
+    }
+    /* .right ul li{
+        display: block;
+
+    } */
+     .right #meinMenu  {
+        transition: .5s;
+        display: none;
+    } 
+    .meinMenu-expand {
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s;
+        
+        height: 0;
+    }
+     #meinMenu-expand li{
+        display: block;
+        transition: .5s;
+    }
+  .menuTimes-01{
+    display: block;
+  }
+
+
+  
+  .meinMenu-expand-js-code {
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+    
+    height: 450px;
+}
+
+/* .widBtn_11{
+    display: block;
+     visibility:visible;
+     opacity: 1;
+ } */
+
+ #btnSize {
+    width: 75px;
+    padding: 3px 8px;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    background: rgb(0 , 0 ,0 , 0);
+}
+
+
+
+
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 25px;
+    color: #fff;
+}
+.right .menuBar li button {
+    border: none;
+    background: rgb(90, 85, 85 , 0);
+    width: 75px;
+}
+
+
+
+
+
+/* .list-class-style-js{
+
+} */
+.meinMenu-expand {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    
+    
+}
+
+.width-11{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 320px) {
+    .left1 h2 {
+        font-size: 25px;
+       
+    }
+
+    .home2ntSection .subHome2ntSection h1 {
+        font-size: 25px;
+    }
+    .home2ntSection .subHome2ntSection p {
+        width: 90%;
+    }
+    .sub_my_skill p {
+        width: 90%;
+    }
+    .sub_my_skill h1 {
+        font-size: 25px;
+    }
+    .sub_my_skill table tr span {
+        font-size: 25px;
+    }
+    .worker h1 {
+        font-size: 25px;
+        
+    }
+    .sub_contact_section .p1 {
+        width: 90%;
+    }
+    .sub_contact_section h1 {
+        font-size: 25px;
+    }
+    .lft1 .email span, .number span, .adress span {
+        font-size: 20px;
+       
+    }
+
+    .lft1 .email p, .number p, .adress p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .lft1 nav ul li a {
+        font-size: 17px;
+    }
+    .r8 p {
+        font-size: 15px;
+       
+    }
+}
