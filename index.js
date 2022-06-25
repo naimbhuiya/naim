@@ -12,11 +12,11 @@ const handle = (file , statusCode , req , res)=>{
 
 const server = http.createServer((req , res )=>{
      if(req.url == "/"){
-        handle("page/index.html" , 200 , req , res)
+        handle("./page/index.html" , 200 , req , res)
      }else if (req.url == "/contact"){
-        handle("page/contact.html" , 201 , req , res)
+        handle("./page/contact.html" , 201 , req , res)
      }else if (req.url == "/about"){
-      handle("page/about.html" , 202 , req , res)
+      handle("./page/about.html" , 202 , req , res)
    } else{
         res.end(
             "<h1>404 || not find</h1>"
